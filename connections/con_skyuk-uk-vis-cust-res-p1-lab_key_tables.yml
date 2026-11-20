@@ -1,0 +1,6 @@
+unique_name: con_skyuk-uk-vis-cust-res-p1-lab_key_tables
+object_type: connection
+label: con_skyuk-uk-vis-cust-res-p1-lab_key_tables
+as_connection: uk_utl_subs-p1_agg_ic
+database: skyuk-uk-vis-cust-res-p1-lab
+schema: key_tables

@@ -1,0 +1,7 @@
+unique_name: cm_sky_dtv_removes copy
+object_type: metric_calc
+label: Removes
+description: >-
+  Signed removes per Sky KPI convention (negative of exact distinct portfolio
+  removals).
+expression: 0 - [Measures].[m_sky_dtv_removes_count]
