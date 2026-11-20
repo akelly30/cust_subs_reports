@@ -1,0 +1,6 @@
+unique_name: sky_phase1_dtv_kpis
+object_type: catalog
+label: Sky Phase 1 DTV KPI Model
+version: 1.6
+aggressive_agg_promotion: false
+build_speculative_aggs: false

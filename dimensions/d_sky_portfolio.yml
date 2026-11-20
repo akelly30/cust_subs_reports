@@ -1,0 +1,18 @@
+unique_name: d_sky_portfolio
+object_type: dimension
+label: Portfolio
+type: standard
+is_degenerate: true
+hierarchies:
+- unique_name: d_sky_portfolio_hierarchy
+  label: Portfolio
+  levels:
+  - unique_name: d_sky_portfolio_level
+level_attributes:
+- unique_name: d_sky_portfolio_level
+  label: Portfolio ID
+  dataset: transformed_subscriptions_portfolio
+  name_column: portfolio_id
+  key_columns:
+  - portfolio_id
+  is_unique_key: false

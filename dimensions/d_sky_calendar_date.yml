@@ -1,0 +1,18 @@
+unique_name: d_sky_calendar_date
+object_type: dimension
+label: Calendar Date
+type: standard
+is_degenerate: true
+hierarchies:
+- unique_name: d_sky_calendar_date_hierarchy
+  label: Calendar Date
+  levels:
+  - unique_name: d_sky_calendar_date_level
+level_attributes:
+- unique_name: d_sky_calendar_date_level
+  label: Calendar Date
+  dataset: transformed_subscriptions_portfolio
+  name_column: cal_date
+  key_columns:
+  - cal_date
+  is_unique_key: false

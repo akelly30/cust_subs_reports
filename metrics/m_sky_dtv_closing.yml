@@ -1,0 +1,7 @@
+unique_name: m_sky_dtv_closing
+object_type: metric
+label: Closing DTV Base
+description: Exact COUNT(DISTINCT portfolio_id) where eod_dtv_base = 1.
+calculation_method: count distinct
+dataset: transformed_subscriptions_portfolio
+column: dtv_closing_portfolio_key

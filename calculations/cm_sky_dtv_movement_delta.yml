@@ -1,0 +1,5 @@
+unique_name: cm_sky_dtv_movement_delta
+object_type: metric_calc
+label: Movement Reconciliation Delta (QA)
+description: Checks Net Growth against Adds plus signed Removes; may be nonzero due to differing portfolio populations or source state logic.
+expression: ([Measures].[m_sky_dtv_closing] - [Measures].[m_sky_dtv_opening]) - ([Measures].[m_sky_dtv_adds] - [Measures].[m_sky_dtv_removes_count])

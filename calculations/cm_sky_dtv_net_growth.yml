@@ -1,0 +1,5 @@
+unique_name: cm_sky_dtv_net_growth
+object_type: metric_calc
+label: Net Growth
+description: Closing DTV Base minus Opening DTV Base for the selected calendar date.
+expression: '[Measures].[m_sky_dtv_closing] - [Measures].[m_sky_dtv_opening]'

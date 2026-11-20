@@ -1,0 +1,23 @@
+unique_name: phase1_dtv_kpis
+object_type: model
+label: Sky Phase 1 DTV KPIs
+description: 'Sky DTV KPI model: exact distinct portfolio counts on a daily BigQuery snapshot; includes 5 specified business KPIs and
+  a QA check. Net Churn pending definitions.'
+visible: true
+relationships: []
+dimensions:
+- d_sky_calendar_date
+- d_sky_portfolio
+metrics:
+- unique_name: m_sky_dtv_opening
+  folder: DTV KPIs
+- unique_name: m_sky_dtv_adds
+  folder: DTV KPIs
+- unique_name: cm_sky_dtv_removes
+  folder: DTV KPIs
+- unique_name: m_sky_dtv_closing
+  folder: DTV KPIs
+- unique_name: cm_sky_dtv_net_growth
+  folder: DTV KPIs
+- unique_name: cm_sky_dtv_movement_delta
+  folder: DTV QA

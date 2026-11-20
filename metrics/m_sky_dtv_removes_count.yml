@@ -1,0 +1,7 @@
+unique_name: m_sky_dtv_removes_count
+object_type: metric
+label: Removes (Unsigned)
+description: Exact COUNT(DISTINCT portfolio_id) where sod_dtv_base = 1 AND eod_dtv_base = 0; positive base metric.
+calculation_method: count distinct
+dataset: transformed_subscriptions_portfolio
+column: dtv_remove_portfolio_key

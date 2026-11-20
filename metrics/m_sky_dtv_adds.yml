@@ -1,0 +1,7 @@
+unique_name: m_sky_dtv_adds
+object_type: metric
+label: Adds
+description: Exact COUNT(DISTINCT portfolio_id) where sod_dtv_base = 0 AND eod_dtv_base = 1.
+calculation_method: count distinct
+dataset: transformed_subscriptions_portfolio
+column: dtv_add_portfolio_key
